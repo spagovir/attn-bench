@@ -2,5 +2,8 @@
 	path = FasterTransformer
 	url = https://github.com/NVIDIA/FasterTransformer.git
 [submodule "flash-attention-jax"]
-	path = flash-attention-jax
+	path = src/flash-attention-jax
 	url = https://github.com/lucidrains/flash-attention-jax.git
+[submodule "flash-attention"]
+	path = flash-attention
+	url = https://github.com/Dao-AILab/flash-attention.git

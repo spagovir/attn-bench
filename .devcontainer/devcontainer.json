@@ -2,7 +2,7 @@
 	"name" : "nvidia-docker",
 	"image" : "nvcr.io/nvidia/jax:23.10-py3",
 	"containerUser": "root",
-    "postCreateCommand": "pip3 install torch torchvision torchaudio",
+	// "postCreateCommand": "pip3 install torch torchvision torchaudio && pip install packaging && pip install ninja",
 
 	// "postCreateCommand": "pip install transformers",
 	// "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
