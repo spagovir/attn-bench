@@ -1,6 +1,6 @@
 {
 	"name" : "nvidia-docker",
-	"image" : "nvcr.io/nvidia/pytorch:23.12-py3",
+	"image" : "nvcr.io/nvidia/jax:23.10-py3",
 	"containerUser": "root",
 	"postCreateCommand": "./setup.sh",
 
