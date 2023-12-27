@@ -1,0 +1,6 @@
+[submodule "FasterTransformer"]
+	path = FasterTransformer
+	url = https://github.com/NVIDIA/FasterTransformer.git
+[submodule "flash-attention-jax"]
+	path = flash-attention-jax
+	url = https://github.com/lucidrains/flash-attention-jax.git
